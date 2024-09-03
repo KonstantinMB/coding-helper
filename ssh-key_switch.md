@@ -28,3 +28,9 @@ To add your private key to the SSH agent, use the `ssh-add` command:
 
 ```bash
 ssh-add ~/.ssh/id_rsa
+```
+
+If something doesn't go as planned:
+```bash
+ssh -T git@github.com
+```
