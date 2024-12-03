@@ -34,3 +34,9 @@ If something doesn't go as planned:
 ```bash
 ssh -T git@github.com
 ```
+
+Also, make sure ot add the github config stuff after (may have issues with access otehrwise):
+```bash
+git config --global user.email <youremail@example.com>
+git config --global user.name <yourgithubname>
+```
